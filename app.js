@@ -139,7 +139,8 @@ cartButton.onclick = () => {
   }
 
     text += "The total amount is " + finalDollars + "$ and " + finalCents + " cents" + " "
-
+    console.log(text);
+  
     location.href=("https://wa.me/7397584609?text="+ text)
 
 };
